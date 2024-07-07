@@ -15,12 +15,15 @@
         <script src="assets/js/jquery-3.7.1.min.js" type="text/javascript"></script>
     </head>
     <body>
-        <h1>Hello World! I'm in a New Index.jsp</h1>
-        <button class="btn btn-success" />TESTE</button>
+        <form action="UserController" method="POST">
+            <input type="text" name="user">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        
     
     <script>
         $(document).ready(() => {
-            alert("ola JQuery!");
+            
         });
     </script>
     </body>
