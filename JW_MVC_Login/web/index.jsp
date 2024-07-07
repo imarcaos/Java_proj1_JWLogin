@@ -11,20 +11,17 @@
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
         <title>JSP Page</title>
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/main.css" rel="stylesheet" type="text/css"/>
         <script src="assets/js/bootstrap.bundle.min.js" type="text/javascript"></script>
         <script src="assets/js/jquery-3.7.1.min.js" type="text/javascript"></script>
     </head>
     <body>
-        <form action="UserController" method="POST">
-            <input type="text" name="user">
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        
-    
-    <script>
-        $(document).ready(() => {
-            
-        });
-    </script>
+        <nav>
+            <ul>
+                <li><h5>PROJETO JW_LOGIN</h5></li>
+                <li><a href="index.jsp">Home</a></li>
+                <li><span id="btn_getAllUsers">Users</span></li>
+            </ul>
+        </nav>
     </body>
 </html>
