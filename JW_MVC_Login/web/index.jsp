@@ -14,6 +14,7 @@
         <link href="assets/css/main.css" rel="stylesheet" type="text/css"/>
         <script src="assets/js/bootstrap.bundle.min.js" type="text/javascript"></script>
         <script src="assets/js/jquery-3.7.1.min.js" type="text/javascript"></script>
+        <script src="assets/js/main.js" type="text/javascript"></script>
     </head>
     <body>
         <nav>
