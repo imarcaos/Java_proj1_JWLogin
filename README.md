@@ -126,3 +126,12 @@ Iniciado: 2024-06-30
 - Não sei como expressar o alívio que sinto depois de 2 dias as voltas com o erro (descritos anteriormente), deixo duas ressalvas:
     - Vou manter a versão 2 do Projeto que está com a Branch criada, o projeta está com outro nome.
     - e esse trecho do erro, pois talvez em alguma pesquisa pode vir ajudar alguém na mesma situação.
+
+### Apresentar Registos no FrontEnd
+2024-07-10
+- No `index.jsp` criar uma div com um nome de class "tabela-users" para referenciarmos e apresentarmos os registos.
+- Adicionamos mais 2 div interiores a este, no último adicionamos a nossa tabela.
+- Preparar a tabela utilizando o Bootstrap para estilizar.
+- Depois de criada a tabela dentro do `index.jsp` e testada, recortamos os 2 últimos div com a nossa tabela e todo o conteúdo.
+- Dentro do `main.js` criamos uma função `tableUsers` e dentro da função fazemos o "paste" da tabela.
+- Efetuamos as modificações necessários para iterarmos com os dados obtidos dos registos.
