@@ -14,7 +14,7 @@ import models.UserModel;
 public class Teste {
     
     public static void main(String[] args) {
-
+// teste 1
 //        try {
 //            Conexao conexao = new Conexao();
 //            Connection con = null;
@@ -26,15 +26,24 @@ public class Teste {
 //            
 //        } catch (SQLException ex) {
 //        }
-                
-        DaoUser daoUser = new DaoUser();
-        for (UserModel user : daoUser.getAllUsers()) {
-            System.out.println(user.getIdUser());
-            System.out.println(user.getUserName());
-            System.out.println(user.getCreatedAt());
-        }        
-        
-
+//  teste 2              
+//        DaoUser daoUser = new DaoUser();
+//        for (UserModel user : daoUser.getAllUsers()) {
+//            System.out.println(user.getIdUser());
+//            System.out.println(user.getUserName());
+//            System.out.println(user.getCreatedAt());
+//        }        
+// teste 3
+          UserModel userModel = new UserModel();
+          userModel.setUserName("Margarida");
+          userModel.setUserEmail("margarida@email.com");
+          DaoUser daoUser = new DaoUser();
+          boolean result = daoUser.createUser(userModel);
+          if(result) {
+              System.out.println("Registo Inserido com Sucesso!");
+          } else {
+              System.out.println("Erro na Inserção do Registo");
+          }
 
     }
     

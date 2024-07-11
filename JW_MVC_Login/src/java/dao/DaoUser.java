@@ -46,5 +46,24 @@ public class DaoUser {
         }
         return lista;
     }
+     
+     public boolean createUser(UserModel userModel) {
+         
+         Conexao conexao = new Conexao();
+         Connection con = conexao.conexao();
+         PreparedStatement ps;
+         try {
+             String querySql = "INSERT INTO users (user_name, user_email) values(?, ?)";
+             ps = con.prepareStatement(querySql);
+             ps.setString(1, userModel.getUserName());
+             ps.setString(2, userModel.getUserEmail());
+             ps.execute();
+         } catch (SQLException e) {
+             System.out.println(e.getMessage());
+             return false;
+         }
+         return true;
+         
+     }
     
 }

@@ -135,3 +135,8 @@ Iniciado: 2024-06-30
 - Depois de criada a tabela dentro do `index.jsp` e testada, recortamos os 2 últimos div com a nossa tabela e todo o conteúdo.
 - Dentro do `main.js` criamos uma função `tableUsers` e dentro da função fazemos o "paste" da tabela.
 - Efetuamos as modificações necessários para iterarmos com os dados obtidos dos registos.
+
+### CRUD Create
+2024-07-11
+- Criar um método que permite inserir um registo na tabela users
+- Na classe teste, vamos fazer nosso teste.
