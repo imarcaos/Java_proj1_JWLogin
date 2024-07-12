@@ -140,3 +140,13 @@ Iniciado: 2024-06-30
 2024-07-11
 - Criar um método que permite inserir um registo na tabela users
 - Na classe teste, vamos fazer nosso teste.
+
+### CRUD Create Frontend
+2024-07-12
+- Agora vamos utilizar o Modal do Bootstrap
+	- Na documentação oficial do Bootstrap > Components > Modal > pegamos um exemplo simples do model e copiamos o código.
+	- `data-bs-toggle="modal" data-bs-target="#exampleModal"` e inserimos no nosso botão "Create New User" na `main.js`.
+	- Mudamos o nome "exampleModal" de `data-bs-target="#exampleModal` para o nome da nossa id modal que será "modal_create_user"
+	- Agora copiamos o código exemplo da Modal e colocamos no nosso `index.jsp`
+	- Dentro do código Modal, alteramos o nome da id  o nome que demos anteriormente.
+	- Podemos estilizar nosso código, tipo centralizando o modal, para isso buscamos no Bootstrap Modal como centrar o código e adicionamos ao nosso.
