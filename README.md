@@ -4,6 +4,8 @@ Projeto Web MVC CRUD, MySQL, Tomcat, Servlet, JSP - Netbeans IDE
 
 Segui um tutorial da internet para construir este projeto e  estudar a estruturação, organização, conexão com a base de dados MySQL.
 
+Vídeo: [Projeto MVC Java](https://www.youtube.com/watch?v=OUgnvT3qPuI).
+
 #### Os exercícios e explicações poderão estar comentados no próprio código ou nos pontos descritos a seguir, irei detalhar sempre no primeiro projeto.
 
 ## Projeto 1 - Java Web - Tela de Login
@@ -15,6 +17,9 @@ Iniciado: 2024-06-30
 - Tomcat Servidor Web 10.1
 - MySQL Base de Dados (MariaDB 10.4.32)
 - Dbeaver SGBD
+
+Projeto Inacabado, parado por enquanto.
+![Projeto 1 Java Web Login](sistema_de_login_java_mvc.png)
 
 ### Criando a BD no MySQL
 - Adicionar uma nova folha de SQL Queries e aplicar os comandos a seguir:
@@ -150,3 +155,5 @@ Iniciado: 2024-06-30
 	- Agora copiamos o código exemplo da Modal e colocamos no nosso `index.jsp`
 	- Dentro do código Modal, alteramos o nome da id  o nome que demos anteriormente.
 	- Podemos estilizar nosso código, tipo centralizando o modal, para isso buscamos no Bootstrap Modal como centrar o código e adicionamos ao nosso.
+
+### Projeto em Standby por um tempo, preciso de aprender mais coisas, antes de continuar.
