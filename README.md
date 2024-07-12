@@ -19,7 +19,7 @@ Iniciado: 2024-06-30
 - Dbeaver SGBD
 
 Projeto Inacabado, parado por enquanto.
-![Projeto 1 Java Web Login](sistema_de_login_java_mvc.png)
+![Projeto 1 Java Web Login](/sistema_de_login_java_mvc.png)
 
 ### Criando a BD no MySQL
 - Adicionar uma nova folha de SQL Queries e aplicar os comandos a seguir:
